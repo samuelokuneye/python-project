@@ -14,7 +14,4 @@ class User:
         print(f"User {self.name} currently works as a {self.current_job_title} in London.\n Do contact {self.name} on {self.email}")
 
 
-user_one = User("samuel okuneye", "sam@sam.com", "DevSecOps Engineer","admin123")
-user_two = User("demola neye", "dem@sam.com", "DevOps Engineer","admin1234567")
-user_one.get_user_info()
-user_two.get_user_info()
+
